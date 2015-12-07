@@ -211,7 +211,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
-        consultas.executeUpdateMas( BigDecimal.valueOf(Double.valueOf(jTextField4.getText())));
+        consultas.updateMasivo( BigDecimal.valueOf(Double.valueOf(jTextField4.getText())));
     }//GEN-LAST:event_jButton5MouseClicked
 
     /**

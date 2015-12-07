@@ -78,7 +78,7 @@ public class Consultas {
       
     }
 
-    public void executeUpdateMas(BigDecimal prezo) {
+    public void updateMasivo(BigDecimal prezo) {
         Session session = HUtil.getSessionFactory().openSession();
         session.beginTransaction();
         Query q = session.createQuery(CONSULTA);
